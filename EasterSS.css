@@ -1,0 +1,36 @@
+
+body {
+	
+	font-family: calibri, sans-serif;
+	padding-bottom: 30px
+}
+
+h1 {
+	margin-top: 5%;
+	font-size: 40pt;
+	text-align: center;
+	color: #4d7f44;
+}
+
+form {
+	text-align: center;
+	
+	
+}
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+p.date {
+	font-size: 15pt;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+p.subheading {
+	margin-top: 5%; 
+	font-size: 20pt;
+	color: #4d7f44;
+	text-align: center;
+}

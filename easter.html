@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Find Easter</title>
+<link rel="stylesheet" type="text/css" href="EasterSS.css"/>
+</head>
+<body>
+
+
+<h1> FIND EASTER </h1>
+<img src='Easter.png' width=35%/>
+<form method="post" action="cgi-bin/easter.py">
+	<label for='year'>Please enter a year (date is inaccurate before 1700AD+) : </label> <input type='text' name='Year' id='year'>
+
+	<p class='subheading'> How would you like the result displayed? </p>
+
+	<input type='radio' name='Display' id='number' value='number' checked='checked'/><label for='number'>Numerically</label>
+	<input type='radio' name='Display' id='word' value='word'><label for='number'/>Verbosely</label>
+	<input type='radio' name='Display' id='both' value='both'/><label for='number'>Both</label>
+
+	<input type='submit' value='Find Easter' >
+</form>
+
+</body>
+</html>
